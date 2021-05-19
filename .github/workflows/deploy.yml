@@ -35,5 +35,5 @@ jobs:
       - name: prepare environment
         run: |
           git clone https://github.com/smpower/test-action.src.git __src__
-          mv ./_data ./__src__ && cd __src__
+          mv ./source ./__src__ && cd __src__
           npm i
